@@ -1,0 +1,14 @@
+/* =============
+    Shop Hero
+============= */
+
+.shop-hero {
+    display: grid;
+    margin-left: 16px;
+    margin-right: 16px;
+
+    img{
+        width:100%;
+        object-fit: contain;
+    }
+}

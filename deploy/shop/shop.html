@@ -7,8 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Italiana&family=Outfit:wght@100;300;400&display=swap" 
-      rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Italiana&family=Outfit:wght@100;300;400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../css/styles.css">
     <title>Starting Template</title>
   </head>
@@ -16,51 +15,97 @@
   <body>
     <header class="container header">
        <div class="content">
-        <div>
-          <img src="../img/icons/HamburgerMenu.svg" alt="Menu">
+         <div class="top-bar">
+
+          <div class="lg-filler"></div>
+
+          <div class="hamburger">
+            <button><img src="../img/icons/HamburgerMenu.svg" alt="Menu"></button>
+          </div>
+
+          <div class="filler"></div>
+
+          <div class="Logo">
+            <button>
+              <div class="bunny">
+                <img src="../img/icons/Logo.svg" alt="Logo">
+              </div>
+              <h2>Vault + Vine</h2>
+              <h3>East Falls</h3>
+          </button>
+          </div>
+
+          <div class="search-bar">
+            <input placeholder= "search" type="search">
+            <button class="search-button"><img src="../img/icons/Search.svg" alt="Search"></button>
+          </div>
+
+          <div class="search-icon">
+            <button><img src="../img/icons/Search.svg" alt="Search"></button>
+          </div>
+
+          <div class="shopping-bag">
+              <button><img src="../img/icons/ShoppingBag.svg" alt="Cart"></button>
+          </div>
         </div>
 
-        <div>
-          <img src="../img/icons/Logo.svg" alt="Logo">
-          <h2>Vault + Vine</h2>
-          <h3>East Falls</h3>
-        </div>
-
-        <div>
-          <img src="../img/icons/Search.svg" alt="Search">
-        </div>
-
-        <div>
-            <img src="../img/icons/ShoppingBag.svg" alt="Cart">
+        <div class="large-menu">
+          <ul>
+            <li>
+              <h5>Shop</h5>
+            </li>
+            <li>
+              <h5>Plant</h5>
+            </li>
+            <li>
+              <h5>Our Story</h5>
+            </li>
+            <li>
+              <h5>Account</h5>
+            </li>
+            <li>
+              <h5>Contact</h5>
+            </li>
+          </ul>
+          <hr>
         </div>
       </div>
     </header>
 
-    <section class="container title">
-      <div class="content">
+
+    <section class="title">
         <h1>Shop</h1>
-      </div>
     </section>
 
-    <section class="container shop-hero">
-      <div class="content">
+    <section class="shop-hero">
         <img src="../img/shop/heros/XLargeShopHero.jpg" alt="Hero">
-      </div>
     </section>
 
-    <section class="container blurb">
-      <div class="content background">
+    <section class="container blurb background">
+      <div class="content">
         <h2>Welcome to Vault + Vine.</h2>
         <p>We are a small group of humans working together to shape the world we wish to live in. Our philosophy is that the world is a beautiful place and our purpose is to share that with you.</p>
       </div>
     </section>
 
     <section class="container search-bar">
-      <div class="content background">
-        <button><img src="../img/icons/Search.svg" alt="Search"></button>
-        <input type="search">
-        <h6>Filter</h6>
-        <button><img src="../img/icons/DownArrow.svg" alt="Menu"></button>
+      <div class="content">
+        <ul>
+          <div class="search-input-button">
+            <li class="search-input">
+              <input placeholder= "search" type="search">
+            </li>
+            <li class="search-button">
+              <button><img src="../img/icons/Search.svg" alt="Search"></button>
+            </li>
+          </div>
+          <li>
+            <div><h6>Filter</h6></div>
+          </li>
+          <li>
+            <div class="down-button"><button><img src="../img/icons/DownArrow.svg" alt="Menu"></button></div>
+          </li>
+        </ul>
       </div>
     </section>
 
@@ -180,43 +225,69 @@
 
     <footer class="container footer">
       <div class="content">
-        <div>
+        <div class="background">
           <h3>Contact</h3>
-         <ul>
-           <li>
-             <img src="../img/icon/footer/Location.svg" alt="Location">
-             <p>3507 Midvale Avenue<br>Philadelphia, PA 19129</p>
-           </li>
-            <li>
-              <img src="../img/icon/footer/Clock.svg" alt="Hours">
-             <p>8am-3pm<br>Thursday-Sunday</p>
-            </li>
-           <li>
-              <img src="../img/icon/footer/Phone.svg" alt="Phone">
-              <p>267 331 6292</p>
-           </li>
-            <li>
-              <img src="../img/icon/footer/Mail.svg" alt="Email">
-             <p>hello@vaultandvine.co</p>
-           </li>
-         </ul>
-        </div>
+          <div class="top">
+            <ul>
+              <li>
+                <aside>
+                  <div class="location">
+                    <img src="../img/icons/footer/Location.svg" alt="Location">
+                    <p>3507 Midvale Avenue<br>Philadelphia, PA 19129</p>
+                  </div>
+                  <div class="hours">
+                      <img src="../img/icons/footer/Clock.svg" alt="Hours">
+                      <p>8am-3pm<br>Thursday-Sunday</p>
+                  </div>
+                </aside>
 
-        <div>
-         <ul>
-           <li>
-             <h6>Account Inquiries</h6>
-           </li>
-            <li>
-             <h6>Resources</h6>
-           </li>
-            <li>
-              <h6>Shipping & Returns</h6>
-           </li>
-            <li>
-              <h6>Directions</h6>
-           </li>
-         </ul>
+              <li>
+                <aside>
+                  <div class="phone">
+                    <img src="../img/icons/footer/Phone.svg" alt="Phone">
+                    <p>267 331 6292</p>
+                  </div>
+                  <div class="email">
+                    <img src="../img/icons/footer/Mail.svg" alt="Email">
+                    <p>hello@vaultandvine.co</p>
+                  </div>
+                </aside>
+              </li>
+
+            </ul>
+          </div>
+
+          <div class="bottom">
+          <ul>
+            <li class="sm-spacing">
+              <h6>Account Inquiries</h6>
+            </li>
+
+            <li class="sm-spacing line">
+              <h6>|</h6>
+            </li>
+
+            <li class="sm-spacing">
+              <h6>Resources</h6>
+            </li>
+
+            <li class="sm-spacing line">
+              <h6>|</h6>
+            </li>
+
+            <li class="sm-spacing line">
+                <h6>Shipping & Returns</h6>
+            </li>
+
+            <li class="sm-spacing line">
+              <h6>|</h6>
+            </li>
+
+              <li class="sm-spacing line">
+                <h6>Directions</h6>
+            </li>
+          </ul>
+          </div>
         </div>
       </div>
     </footer>
@@ -224,3 +295,4 @@
     <script src="js/scripts-min.js"></script>
   </body>
 </html>
+

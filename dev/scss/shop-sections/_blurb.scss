@@ -1,0 +1,67 @@
+/* =============
+    Blurb
+============= */
+
+.blurb {
+    margin-top: 64px;
+    .container {
+        display: grid;
+        grid-template-columns: 100%;
+    }
+
+    h2{
+        font-family: Italiana;
+        font-weight: 300;
+        font-size: 30px;
+        text-align: center;
+        color: black;
+        
+        @include md {
+            font-size: 48px;
+            font-weight: 400;
+            text-align: center;
+            color: black;
+        }
+        @include lg {
+            font-size: 64px;
+            font-weight: 400;
+            text-align: center;
+            color: black;
+        }
+    }
+
+    p {
+        font-family: Outfit;
+        font-weight: 300;
+        font-size: 18px;
+        text-align: left;
+        color: black;
+        line-height: 24px;
+        margin-bottom: -4px;
+        margin-top: 4px;
+        padding-bottom: 48px;
+        
+        @include md {
+            margin-right: 10%;
+            margin-left: 10%;
+            padding-bottom: 64px;
+        }
+
+        @include lg {
+            margin-right: 25%;
+            margin-left: 25%;
+            padding-bottom: 80px;
+            margin-top: -16px;
+        }
+
+        @include xl {
+            margin-right: 30%;
+            margin-left: 30%;
+        }
+    }
+
+}
+.background {
+    background-color:$laurel;
+    width: 100%;
+}

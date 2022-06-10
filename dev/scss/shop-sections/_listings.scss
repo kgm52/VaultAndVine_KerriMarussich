@@ -1,0 +1,83 @@
+/* =============
+    Listings
+============= */
+
+
+.listings {
+    padding-bottom: 32px;
+    .content {
+
+        img {
+            margin-top: 32px;
+        }
+
+        button {
+            background: none;
+            color: inherit;
+            border: none;
+        }
+
+        aside {
+            display: flex;
+            justify-content: space-around;
+            
+            @include lg {
+                margin-left: 32px;
+                margin-right: 32px;
+            }
+
+            @include xl {
+                margin-left: 64px;
+                margin-right: 64px;
+            }
+        }
+
+        h6{
+            font-family: Outfit;
+            font-weight: 400;
+            font-size: 18px;
+            text-align: left;
+            color: black;
+            padding-left: 16px;
+            margin: 8px 16px 16px;
+
+            @include md {
+                font-size: 20px;
+                padding-left: 8px;
+            }
+
+            @include lg {
+                padding-left: 32px;
+            }
+
+            @include xl {
+                padding-left: 64px;
+            }
+        }
+
+        p {
+            font-family: Outfit;
+            font-weight: 300;
+            font-size: 16px;
+            text-align: left;
+            color: black;
+
+            @include md {
+                font-size: 18px;
+            }
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+            margin-bottom: -32px;
+            display: grid;
+            grid-template-columns: 50% 50%;
+            text-align: center;
+
+           @include md {
+                grid-template-columns: 33% 33% 33%;
+           }
+       }
+    }
+}

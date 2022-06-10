@@ -1760,7 +1760,7 @@
       "pg" : 0,
       "sct" : 0
     },
-    "\/dev\/scss\/shop\/_blurb.scss" : {
+    "\/dev\/scss\/shop-sections\/_blurb.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -1769,13 +1769,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/scss\/shop\/_blurb.css",
+      "oAP" : "\/dev\/scss\/shop-sections\/_blurb.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/dev\/scss\/shop\/_listings.scss" : {
+    "\/dev\/scss\/shop-sections\/_listings.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -1784,13 +1784,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/scss\/shop\/_listings.css",
+      "oAP" : "\/dev\/scss\/shop-sections\/_listings.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/dev\/scss\/shop\/_page-numbers.scss" : {
+    "\/dev\/scss\/shop-sections\/_page-numbers.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -1799,13 +1799,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/scss\/shop\/_page-numbers.css",
+      "oAP" : "\/dev\/scss\/shop-sections\/_page-numbers.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/dev\/scss\/shop\/_search-bar.scss" : {
+    "\/dev\/scss\/shop-sections\/_search-bar.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -1814,13 +1814,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/scss\/shop\/_search-bar.css",
+      "oAP" : "\/dev\/scss\/shop-sections\/_search-bar.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/dev\/scss\/shop\/_shop-hero.scss" : {
+    "\/dev\/scss\/shop-sections\/_shop-hero.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -1829,13 +1829,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/scss\/shop\/_shop-hero.css",
+      "oAP" : "\/dev\/scss\/shop-sections\/_shop-hero.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/dev\/scss\/shop\/_title.scss" : {
+    "\/dev\/scss\/shop-sections\/_title.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -1844,7 +1844,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/scss\/shop\/_title.css",
+      "oAP" : "\/dev\/scss\/shop-sections\/_title.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,

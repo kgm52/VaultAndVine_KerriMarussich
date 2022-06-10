@@ -1,0 +1,20 @@
+/* =============
+    Page Numbers
+============= */
+
+.page-numbers {
+    display: flex;
+    flex-direction: row;
+    margin: 32px 8px;
+    justify-content: center;
+    .content {
+        align-items: center;
+    }
+
+
+    button {
+        background: none;
+        color: inherit;
+        border: none;
+    }
+}
