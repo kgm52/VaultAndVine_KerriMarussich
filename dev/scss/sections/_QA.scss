@@ -1,0 +1,119 @@
+/* =============
+    QA
+============= */
+
+.QA {
+    display: grid;
+    
+
+    ul {
+        list-style: none;
+        padding: 0;
+    }
+
+
+    h2 {
+        font-family: Italiana;
+        font-weight: 300;
+        font-size: 30px;
+        text-align: center;
+        color: black;
+        
+        @include md {
+            font-size: 48px;
+            text-align: center;
+            color: black;
+        }
+        @include lg {
+            font-size: 64px;
+            text-align: center;
+            color: black;
+        }
+    }
+
+    p {
+        font-family: Outfit;
+        font-weight: 300;
+        font-size: 18px;
+        text-align: left;
+        color: black;
+        line-height: 48px;
+        margin-bottom: -4px;
+        margin-top: 4px;
+    }
+
+    img {
+        width: 100%;
+    }
+
+    button {
+        background: none;
+        color: inherit;
+        border: none;
+    }
+
+    aside {
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .words {
+        padding: 64px;
+        margin-top: -32px;
+
+        @include md {
+            margin: -32px 48px 32px;
+        }
+        @include lg {
+            margin: -32px 64px 32px;
+        }
+    }
+
+    .buttons {
+        padding: 64px;
+        margin-top: -32px;
+
+        @include md {
+            margin: -32px 32px 32px;
+        }
+        @include lg {
+            margin: -32px 48px 32px;
+        }
+
+        li {
+            margin: 16px;
+        }
+    }
+
+    .email-input {
+        margin: -64px 16px 32px;
+    }
+
+    input {
+        width: 220px;
+        height: 45px;
+        border-color: $banksia;
+        border-width: 1px;
+        border-radius: 15px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+
+        @include md {
+            width: 280px;
+        }
+
+        @include lg {
+            width: 336px;
+        }
+    }
+
+    input::placeholder {
+        font-family: Outfit;
+        font-weight: 300;
+        color: black;
+        opacity: 1;
+        font-size: 18px;
+        padding-left: 20px;
+    }
+}

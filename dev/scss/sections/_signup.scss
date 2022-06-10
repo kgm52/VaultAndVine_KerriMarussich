@@ -1,0 +1,84 @@
+/* =============
+    Sign Up
+============= */
+
+.signup {
+    .content {
+        display: grid;
+        grid-template-columns: 100%;
+        text-align: center;
+        margin-bottom: 64px;
+        
+
+        h2 {
+            font-family: Italiana;
+            font-weight: 300;
+            font-size: 36px;
+            text-align: center;
+            color: black;
+            @include md {
+                font-size: 48px;
+            }
+            @include lg {
+                font-size: 64px;
+            }
+        }
+
+        p {
+            font-family: Outfit;
+            font-weight: 300;
+            font-size: 16px;
+            text-align: center;
+            color: black;
+            @include md {
+                font-size: 18px;
+            }
+        }
+
+
+
+
+
+        input {
+            width: 220px;
+            height: 45px;
+            border-color: $banksia;
+            border-width: 1px;
+            border-radius: 15px;
+            margin-top: 16px;
+            margin-bottom: 16px;
+            @include md {
+                width: 280px;
+            }
+    
+            @include lg {
+                width: 336px;
+            }
+        }
+
+        input::placeholder {
+            font-family: Outfit;
+            font-weight: 300;
+            color: black;
+            opacity: 1;
+            font-size: 18px;
+            padding-left: 20px;
+        }
+
+        img {
+            width: 100%;
+        }
+
+        button {
+            background: none;
+            color: inherit;
+            border: none;
+        }
+        
+        aside {
+            display: flex;
+            justify-content: center;
+            
+        }
+    }
+}

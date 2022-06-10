@@ -1,0 +1,173 @@
+/* =============
+    Header
+============= */
+
+
+.header {
+    .content {
+        display: grid;
+        grid-template-columns: 100%;
+        text-align: center;
+    }
+
+
+    .top-bar {
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    button {
+        background: none;
+        color: inherit;
+        border: none;
+    }
+
+    .hamburger {
+        flex-grow: 1;
+        margin-top: 48px;
+        margin-left: -32px;
+        padding: 24px;
+
+        @include lg {
+            display: none;
+        }
+    }
+
+    .filler {
+        flex-grow: 1;
+        margin-top: 48px;
+        padding: 42px;
+
+        @include lg {
+        flex-grow: 1;
+        margin-top: 48px;
+        margin-bottom: -152px;
+        padding: 152px;
+        }
+    }
+
+    .logo{
+        flex-grow: 2;
+        grid-template-columns: 100%;
+        padding-top: 0px;
+        padding-bottom: 56px;
+        
+        }
+        .bunny {
+            padding-top: 16px;
+            margin-bottom: -16px;
+        }
+
+    h2 {
+        font-family: Italiana;
+        font-weight: 300;
+        font-size: 36px;
+        text-align: center;
+        color: black;
+        margin-bottom: -16px;
+    }
+
+    h3 {
+        font-family: Outfit;
+        font-weight: 100;
+        font-size: 24px;
+        text-align: center;
+        color: black;
+        margin-bottom: 56px;
+    }
+
+
+    .search-bar {
+        display: flex;
+        flex-direction: row;
+        border: 1px $parkview;
+        padding: 16px;
+        outline: none;    
+        input {
+            padding: 16px;
+            width: 280px;
+            height: 45px;
+            border-radius: 15px;
+            margin-top: 64px;
+            margin-left: 48px;
+            margin-right: -96px;
+        }
+        input::placeholder {
+            font-family: Outfit;
+            font-weight: 300;
+            color: black;
+            opacity: 1;
+            font-size: 18px;
+            padding-left: 24px;
+        }
+        .search-button {
+            padding-bottom: 24px;
+            margin-left: -176px;
+            margin-right: 176px;
+        }
+        @media only screen and (max-width: 991px){
+            display: none;
+        }
+        @include lg {
+            display: contents;
+        }
+    }
+
+    .search-icon {
+        text-align: right;
+        flex-grow: 1;
+        margin-top: 48px;
+        margin-left: 48px;
+        margin-right: -48px;
+        padding: 24px;
+
+        @include lg {
+            display: none;
+        }
+    }
+    .shopping-bag {
+        flex-grow: 1;
+        margin-top: 48px;
+        margin-right: -32px;
+        padding: 24px;
+    }
+
+
+
+
+    .large-menu {
+            display: none;
+            
+            @include lg {
+                display: contents
+            }
+
+
+        ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        li {
+            padding: 40px;
+            margin-top: -80px;
+            margin-bottom: -24px;
+        }
+
+        hr {
+            border-top: 1px solid black;
+            width: 85%;
+            margin-bottom: 16px;
+            margin-top: -48px;
+        }
+
+        h5 {
+            font-family: Italiana;
+            font-size: 24px;
+            text-align: center;
+            color: black;
+        }
+    }
+}

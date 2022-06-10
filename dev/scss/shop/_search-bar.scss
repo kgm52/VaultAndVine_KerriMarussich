@@ -1,0 +1,27 @@
+/* =============
+    Search Bar
+============= */
+
+.search-bar {
+
+    .container {
+        display: grid;
+        grid-template-columns: 25% 25% 25% 25%;
+        text-align: center;
+    }
+
+    h6{
+        text-align: center;
+    }
+
+    .background {
+        background-color:#896446;
+        grid-area: background;
+    }
+
+    button {
+        background: none;
+        color: inherit;
+        border: none;
+    }
+}

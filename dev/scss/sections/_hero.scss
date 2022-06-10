@@ -1,0 +1,17 @@
+/* =============
+    Hero
+============= */
+
+.hero {
+    .content{
+        display: grid;
+        grid-template-columns: 100%;
+        text-align: center;
+
+        img{
+            width:100%;
+            padding-top: 48px;
+            padding-bottom: 16px;
+        }
+    }
+}

@@ -1,0 +1,107 @@
+/* =============
+    Info
+============= */
+
+.info {
+
+    h5{
+        font-family: Outfit;
+        font-weight: 400;
+        font-size: 18px;
+        text-align: center;
+        color: black;
+        padding-right: 16px;
+        padding-left: 16px;
+        padding-top: 32px;
+
+        @include md {
+            font-size: 30px;
+            text-align: center;
+            color: black;
+            padding-right: 16px;
+            padding-left: 16px;
+            padding-top: 64px;
+        }
+        
+        @include lg {
+            text-align: center;
+            padding-right: 80px;
+            padding-left: 80px;
+        }
+        @include xl {
+            text-align: center;
+            padding-right: 160px;
+            padding-left: 160px;
+        }
+
+    }
+
+    h6{
+        font-family: Outfit;
+        font-weight: 400;
+        font-size: 18px;
+        text-align: center;
+        color: black;
+        padding-right: 16px;
+        padding-left: 16px;
+
+        @include md {
+            font-size: 24px;
+            text-align: left;
+            color: black;
+            padding-right: 72px;
+            padding-left: 72px;
+        }
+    }
+
+    p {
+        font-family: Outfit;
+        font-weight: 300;
+        font-size: 16px;
+        text-align: left;
+        color: black;
+        padding-right: 16px;
+        padding-left: 16px;
+        
+        @include md {
+            font-size: 18px;
+            text-align: left;
+            color: black;
+            padding-right: 72px;
+            padding-left: 72px;
+            padding-top: 16px;
+        }
+
+        @include lg {
+            font-size: 18px;
+            text-align: left;
+            color: black;
+            padding-right: 72px;
+            padding-left: 72px;
+            padding-top: 16px;
+        }
+    }
+
+    .paragraph {
+        @include lg {
+            grid-template-columns: 50% 50%;
+        }
+    }
+
+    aside {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 16px;
+
+        button {
+            background: none;
+            color: inherit;
+            border: none;
+        }
+    }
+
+    .background {
+        background-color: $laurel;
+        grid-area: background;
+    }
+}
